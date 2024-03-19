@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News - Categorie</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    header {
+      background-image: url("https://en.wiktionary.org/wiki/immagine");
+      background-size: cover;
+      background-position: center center;
+      color: #000;
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 70px;
+      margin: 10px 0;
+      color: black;
+    }
+
+    h5 {
+      font-size: 40px;
+      margin: 10px 0;
+      color: black;
+      font-weight: bold;
+    }
+
+    .link-preferiti {
+      margin-right: 20px;
+      /* Aggiunge spazio a destra */
+      font-size: 30px;
+      margin: 10px 0;
+      color: black;
+      justify-content: space-between; /* Allinea gli elementi alla fine e all'inizio dell'header */
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h1 style="font-size: 60px;">NEWS</h1>
+    <a href="preferiti.html" class="link-preferiti">PREFERITI</a>
+  </header>
+
+  <div class="container text-center" style="margin-top: 70px;">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 25rem; margin-left: 220px;">
+          <img src="img/tesla.jpg" class="card-img-top" alt="Tesla">
+          <div class="card-body">
+            <h5 class="card-title">Tesla</h5> <br>
+            <a href="tesla.html" style="margin-bottom: 10px;" class="bottone">Vai</a> <br>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 25rem; margin: 100;">
+          <img src="img/Apple.jpg" class="card-img-top" alt="Apple">
+          <div class="card-body">
+            <h5 class="card-title">Apple</h5> <br>
+            <a href="apple.html" style="margin-bottom: 10px;" class="bottone">Vai</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 25rem;">
+          <img src="img/imprenditore.jpg" class="card-img-top" alt="imprenditori">
+          <div class="card-body">
+            <h5 class="card-title">Imprenditoriali</h5> <br>
+            <a href="imprenditori.html" style="margin-bottom: 10px;" class="bottone">Vai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 25rem;">
+          <img src="img/tech.jpg" class="card-img-top" alt="tech">
+          <div class="card-body">
+            <h5 class="card-title">Tech</h5> <br>
+            <a href="tech.html" style="margin-bottom: 10px;" class="bottone">Vai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card" style="width: 25rem;">
+          <img src="img/Wall-Street-Journal.jpg" class="card-img-top" height="80%" width="80%" alt="Wall Street Jurnal">
+          <div class="card-body">
+            <h5 class="card-title">Wall Street Journal</h5> <br>
+            <a href="wallstreet.html" style="margin-bottom: 10px;" class="bottone">Vai</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
